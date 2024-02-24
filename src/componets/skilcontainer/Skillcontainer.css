@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat+Alternates:wght@300&family=Roboto:wght@300&display=swap");
+
+.skillcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.skillcontainer_text {
+  color: white;
+  flex: 0.6;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.skillcontainer_text > h2 {
+    font-size: 30px;
+}
+
+.skillcontainer_image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillcontainer_image > img {
+width: 600px;
+border-radius: 3px;
+object-fit: contain;
+}
+img {
+  background-position: left;
+  width: 375px;
+  height: 300px;
+  /* mix-blend-mode: multiply; */
+}
+.skillcontainer_skillsets > h5{
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: 400; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.skillcontainer_slider1 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(112, 4, 4);
+}
+ .skillcontainer_slider1 > .css-eglki6-MuiLinearProgress-root{
+    background-color:  rgb(245, 3, 3);
+}
+
+
+.skillcontainer_slider2 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(2, 92, 29);
+}
+.skillcontainer_slider2 > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(6, 223, 96);
+} 
+
+.skillcontainer_slider3 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:  rgb(129, 70, 2);
+}
+.skillcontainer_slider3 > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(250, 134, 2);
+} 
+
+.skillcontainer_slider4 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:  rgb(49, 1, 112);
+}
+.skillcontainer_slider4 > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(106, 3, 241);
+} 
+
+.skillcontainer_slider5 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:  rgb(121, 2, 81);
+}
+.skillcontainer_slider5 > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(248, 2, 166);
+} 
+
+.skillcontainer_slider6 > span >.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:  rgb(96, 131, 1);
+}
+.skillcontainer_slider6 > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(182, 248, 2);
+} 
+   
+   
+   
+
+
