@@ -13,19 +13,19 @@ const Header = () => {
         </h1>
       </div>
       <div className="header_right">
-        <Link to="about" smooth={true} duration={5000}>
+        <Link to="about" smooth={true} duration={500}>
           <h4>De moi</h4>
         </Link>
-        <Link to="skills" smooth={true} duration={5000}>
+        <Link to="skills" smooth={true} duration={500}>
           <h4>Compétence</h4>
         </Link>
-        <Link to="projects" smooth={true} duration={5000}>
+        <Link to="projects" smooth={true} duration={500}>
           <h4>Projets</h4>
         </Link>
-        <Link to="exp" smooth={true} duration={5000}>
+        <Link to="exp" smooth={true} duration={500}>
           <h4>Expérience</h4>
         </Link>
-        <Link to="cintact" smooth={true} duration={5000}>
+        <Link to="cintact" smooth={true} duration={500}>
           <h4>Contact</h4>
         </Link>
         <h4 className="header_rightbutton">Rejoignez-moi</h4>
