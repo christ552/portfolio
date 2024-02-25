@@ -1,17 +1,16 @@
-import React from 'react'
-import './ProjectContainer.css'
+import React from "react";
+import "./ProjectContainer.css";
 
 const ProjectContainer = () => {
   return (
-    <div>
+    <Element>
+      <h1>Les projets</h1>
+      <h1>This is the project</h1>
+      <h1>This is the project</h1>
+      <h1>This is the project</h1>
+      <h1>This is the project</h1>
+    </Element>
+  );
+};
 
-        <h1>This is the project</h1>
-        <h1>This is the project</h1>
-        <h1>This is the project</h1>
-        <h1>This is the project</h1>
-        <h1>This is the project</h1>
-    </div>
-  )
-}
-
-export default ProjectContainer
+export default ProjectContainer;
