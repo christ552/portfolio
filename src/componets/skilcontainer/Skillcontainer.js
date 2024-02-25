@@ -14,7 +14,7 @@ const Skillcontainer = () => {
         <h2>COMPÉTENCES</h2>
         <div className=" skillcontainer_skillsets">
           <h5>React</h5>
-          <div className= "skillcontainer_slider skillcontainer_slider1">
+          <div className="skillcontainer_slider skillcontainer_slider1">
             <LinearProgress variant="determinate" value={90} />
           </div>
         </div>
@@ -44,6 +44,13 @@ const Skillcontainer = () => {
         </div>
         <div className=" skillcontainer_skillsets">
           <h5>Node js</h5>
+          <div className="skillcontainer_slider skillcontainer_slider6">
+            <LinearProgress variant="determinate" value={70} />
+          </div>
+        </div>
+
+        <div className=" skillcontainer_skillsets">
+          <h5>BOOTSTRAP</h5>
           <div className="skillcontainer_slider skillcontainer_slider6">
             <LinearProgress variant="determinate" value={70} />
           </div>
