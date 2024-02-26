@@ -8,7 +8,10 @@ const TopContent = () => {
       <div className="topcontent_container">
         <h1>M Christy Justin LAMBERT</h1>
         <p>Fullstack web dévélopeur</p>
-        <a href="../../">
+        <a
+          href="https://drive.google.com/file/d/12YDsllByl7J9tWgq0pxKaUOtj6qIQK44/view?usp=drive_link"
+          target="_blank"
+        >
           <button className="topcontent_downloadbutton">Télécharger CV</button>
         </a>
         <Link to="projects" smooth={true} duration={500}>
